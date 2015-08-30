@@ -1,0 +1,4 @@
+[submodule "Docs"]
+    path = _posts
+    url = https://github.com/ipnz/Docs.git
+    branch = master
