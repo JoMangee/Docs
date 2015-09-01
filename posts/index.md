@@ -1,5 +1,5 @@
 ---
-layout: post-index
-title: All Posts
-excerpt: "A List of Posts"
+layout: post-list
+title: Policies
+excerpt: "Internet Party Policies"
 ---
