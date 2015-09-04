@@ -1,5 +1,5 @@
 ---
-layout: post-list
+layout: policies
 title: Policies
 excerpt: "Internet Party Policies"
 ---

@@ -23,6 +23,11 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
 
+collections:
+  ipnzdocs:
+    output: true
+    permalink: /policies/:path/
+
 
 # Site owner
 owner:
