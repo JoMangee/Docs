@@ -1,18 +1,17 @@
 PT Serif and PT Sans Narrow fonts used by the site.
 
 Source: Google Fonts (Open Font License)
+
 Files included:
+- PTSansNarrow-Regular.ttf
+- PTSansNarrow-Bold.ttf
+- PTSerif-Regular.ttf
+- PTSerif-Italic.ttf
+- PTSerif-Bold.ttf
+- Multiple WOFF2 files (hashed filenames) for optimized web delivery
 
-* PTSansNarrow-Regular.ttf
-* PTSansNarrow-Bold.ttf
-* PTSerif-Regular.ttf
-* PTSerif-Italic.ttf
-* PTSerif-Bold.ttf
-
-License: These fonts are distributed under the SIL Open Font License (OFL). See https://scripts.sil.org/cms/scripts/page.php?site\_id=nrsi\&id=OFL for details.
+License: These fonts are distributed under the SIL Open Font License (OFL). See https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL for details.
 
 Notes:
-
-* Fonts were downloaded from Google Fonts and stored locally to avoid external calls.
-* The CSS (`\_includes/head/styles.css`) has been updated to reference the local WOFF2 files, with TTF files as a fallback for broadest compatibility.
-
+- Fonts were downloaded from Google Fonts and stored locally to avoid external calls.
+- The CSS (`_includes/head/styles.css`) has been updated to reference the local WOFF2 files, with TTF files as a fallback for broadest compatibility.
