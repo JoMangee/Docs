@@ -15,10 +15,7 @@ RUN apt-get update \
      libssl-dev \
      libreadline-dev \
      nodejs \
-     python3 \
-     python3-pip \
      curl \
-  && pip3 install --no-cache-dir Pygments \
   && rm -rf /var/lib/apt/lists/*
 
 # Use Bundler compatible with Ruby 2.7

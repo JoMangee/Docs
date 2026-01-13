@@ -4,5 +4,5 @@ gem 'jekyll'
 gem 'jekyll-sitemap'
 gem 'octopress', '~> 3.0.0.rc.12'
 
-# Added to satisfy pygments.rb dependency (yajl-ruby is a native extension)
-gem 'yajl-ruby'
+# Rouge is a pure-Ruby syntax highlighter compatible with Jekyll 2.5+
+gem 'rouge', '~> 1.11'
