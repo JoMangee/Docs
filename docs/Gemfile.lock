@@ -87,6 +87,7 @@ DEPENDENCIES
   jekyll
   jekyll-sitemap
   octopress (~> 3.0.0.rc.12)
+  yajl-ruby
 
 BUNDLED WITH
    2.4.22
