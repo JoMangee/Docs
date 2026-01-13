@@ -15,9 +15,7 @@ GEM
     fast-stemmer (1.0.2)
     ffi (1.9.6)
     ffi (1.9.6-x64-mingw32)
-    ffi (1.9.6-x86-mingw32)
     hitimes (1.2.2)
-    hitimes (1.2.2-x86-mingw32)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -72,6 +70,7 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.2.2)
+    rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.13)
     timers (4.0.1)
@@ -79,14 +78,17 @@ GEM
     titlecase (0.1.1)
     toml (0.1.2)
       parslet (~> 1.5.0)
-    yajl-ruby ~> 1.3.1
+    yajl-ruby (1.2.3)
 
 PLATFORMS
-  ruby
   x64-mingw32
-  x86-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   jekyll
   jekyll-sitemap
   octopress (~> 3.0.0.rc.12)
+  rouge (~> 1.11)
+
+BUNDLED WITH
+   2.4.22

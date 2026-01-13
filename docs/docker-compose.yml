@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  jekyll:
+    build: .
+    container_name: ipnz_jekyll
+    volumes:
+      - .:/srv/jekyll:cached
+      - bundle_cache:/usr/local/bundle
+    ports:
+      - "4000:4000"
+    environment:
+      - JEKYLL_ENV=development
+    command: ["./entrypoint.sh"]
+
+volumes:
+  bundle_cache:
+    name: ipnz_bundle_cache

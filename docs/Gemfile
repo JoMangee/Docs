@@ -3,3 +3,6 @@ source 'https://rubygems.org'
 gem 'jekyll'
 gem 'jekyll-sitemap'
 gem 'octopress', '~> 3.0.0.rc.12'
+
+# Rouge is a pure-Ruby syntax highlighter compatible with Jekyll 2.5+
+gem 'rouge', '~> 1.11'
